@@ -1,0 +1,12 @@
+<h1>List of students:</h1>
+
+<% for student in @students do %>
+
+<p>First name: <%= student.first_name %></p>
+<p>Last name: <%= student.last_name %></p>
+<p>House: <%= student.house.name%></p>
+<p>Age: <%= student.age %></p>
+<hr/>
+<% end %>
+
+<p>May the force be with you!</p>
